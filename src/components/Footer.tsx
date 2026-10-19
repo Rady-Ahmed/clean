@@ -129,6 +129,25 @@ export default function Footer() {
             موقع تجاري مخصص لخدمات النظافة المنزلية والتجارية في المملكة العربية السعودية.
           </p>
         </div>
+
+        {/* Developer Credit */}
+        <div className="pt-5 border-t border-white/5 flex justify-center">
+          <a
+            href="https://radyahmed.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 text-[11px] text-emerald-100/30 hover:text-emerald-300 transition-all duration-300"
+            aria-label="تصميم وتطوير: رادي أحمد"
+          >
+            <span>⚡</span>
+            <span>
+              تصميم وتطوير بواسطة{" "}
+              <span className="font-semibold text-emerald-100/50 group-hover:text-emerald-300 transition-colors duration-300 underline decoration-dotted underline-offset-2">
+                Rady Ahmed
+              </span>
+            </span>
+          </a>
+        </div>
       </div>
     </footer>
   );
