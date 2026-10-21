@@ -191,3 +191,20 @@ body {
   transform: translateY(-4px);
   box-shadow: 0 20px 30px -10px rgba(15, 58, 48, 0.12), 0 10px 10px -5px rgba(15, 58, 48, 0.04);
 }
+
+/* Floating Direct Call & WhatsApp Ringing Animation */
+@keyframes phone-ring {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: rotate(-12deg);
+  }
+  20%, 40%, 60%, 80% {
+    transform: rotate(12deg);
+  }
+}
+
+.animate-phone-ring {
+  animation: phone-ring 2.4s infinite ease-in-out;
+}
