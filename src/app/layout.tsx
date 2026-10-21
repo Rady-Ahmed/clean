@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   },
   description: brand.seo.defaultDescription,
   metadataBase: new URL(brand.domain),
+
+  verification: {
+    google: "Gxh6jksdplqEqgO7pLSNPJjOTEz8iU8ld-0GAGyR2vQ",
+  },
+
   alternates: {
     canonical: "/",
   },
