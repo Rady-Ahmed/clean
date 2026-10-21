@@ -76,7 +76,7 @@ export const brand: BrandConfig = {
       `https://wa.me/966561632615?text=${encodeURIComponent(message)}`,
   },
 
-  domain: "https://example.com",
+  domain: "https://cleannajran.vercel.app",
   locale: "ar-SA",
   direction: "rtl",
 

@@ -3,7 +3,7 @@ import { brand } from "@/config/brand";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = brand.domain;
-  const buildDate = new Date("2026-10-13");
+  const buildDate = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
